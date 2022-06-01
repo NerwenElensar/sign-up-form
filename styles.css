@@ -57,7 +57,8 @@ h1 {
 }
 
 .description, 
-.button-container {
+.button-container,
+.log-in-text {
     background-color: rgba(245, 245, 245, 0.817);
     flex-grow: 1;
 }
@@ -66,7 +67,6 @@ h1 {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    padding-left: 48px;
     padding-right: 72px;
     padding-bottom: 48px;
 }
@@ -75,6 +75,7 @@ h3 {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.25;
+    padding-left: 48px;
 }
 
 h3 span {
@@ -83,26 +84,52 @@ h3 span {
 
 .form-container {
     background-color: white;
-    height: 15%;
+    display: flex;
+    flex-direction: column;
 }
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+form div {
+    padding-left: 48px;
+}
+
+form label {
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+
+input {
+    width : 250px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-style: hidden;
+    border-bottom: #385d7a solid;
+  }
 
 /* button container */
 button {
     background-color: #385d7a;
     border: none;
     border-radius: 8px;
-    /* box-shadow: 1px 1px 10px rgb(158, 158, 158); */
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     color: white;
     display: block;
     font-weight: 700;
     font-size: 1rem;
-    margin: 24px 48px;
+    margin: 24px 0;
     padding: 12px 36px;
 }
 
 .log-in-text {
-    margin-left: 48px;
+    padding-left: 48px;
     font-size: 1.17rem;
 }
 
@@ -111,3 +138,4 @@ button {
     text-decoration: none;
     font-weight: 700;
 }
+
