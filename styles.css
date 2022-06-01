@@ -85,3 +85,29 @@ h3 span {
     background-color: white;
     height: 15%;
 }
+
+/* button container */
+button {
+    background-color: #385d7a;
+    border: none;
+    border-radius: 8px;
+    /* box-shadow: 1px 1px 10px rgb(158, 158, 158); */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    color: white;
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 24px 48px;
+    padding: 12px 36px;
+}
+
+.log-in-text {
+    margin-left: 48px;
+    font-size: 1.17rem;
+}
+
+.log-in-text a {
+    color: #385d7a;
+    text-decoration: none;
+    font-weight: 700;
+}
