@@ -46,3 +46,42 @@ h1 {
     text-align: center;
     bottom: 3%
 }
+
+/* Right part */
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Roboto", sans-serif;
+}
+
+.description, 
+.button-container {
+    background-color: rgba(245, 245, 245, 0.817);
+    flex-grow: 1;
+}
+
+.description{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-left: 48px;
+    padding-right: 72px;
+    padding-bottom: 48px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+h3 span {
+    font-style: italic;
+}
+
+.form-container {
+    background-color: white;
+    height: 15%;
+}
