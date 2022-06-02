@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/x-icon" href="images/sup-icon.png" />
+    <script src="script.js" defer></script>
     <title>Zen Sup</title>
   </head>
   <body>
@@ -59,11 +60,12 @@
               </div>
               <div>
                 <label for="password">PASSWORD</label><br />
-                <input type="password" name="password" id="password" />
+                <input type="password" name="password" id="password" minlength="8"/> <br>
+                <span class="error"></span>
               </div>
               <div>
                 <label for="confirm-pw">CONFIRM PASSWORD</label><br />
-                <input type="password" name="confirm-pw" id="confirm-pw" />
+                <input type="password" name="confirm-pw" id="confirm-pw" minlength="8"/>
               </div>
             </div>
 
