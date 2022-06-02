@@ -12,6 +12,10 @@ This is an exercise to create a sign-up form similar to a provided [design]("htt
 ### CSS
 - Styling form controls
 - Pseudo classes and Pseudo elements
+- Using CSS custom properties
+
+### Javascript
+- Using JS for form validation in this case making sure the password and confirm password field is matching
 
 Photo by [Ivan Rohovchenko]("https://unsplash.com/@ivrn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on Unsplash
 
