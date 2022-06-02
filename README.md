@@ -16,7 +16,3 @@ This is an exercise to create a sign-up form similar to a provided [design]("htt
 
 ### Javascript
 - Using JS for form validation in this case making sure the password and confirm password field is matching
-
-Photo by [Ivan Rohovchenko]("https://unsplash.com/@ivrn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on Unsplash
-
-<div> Icon by <a href="https://creativemarket.com/eucalyp" title="Eucalyp"> Eucalyp </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>

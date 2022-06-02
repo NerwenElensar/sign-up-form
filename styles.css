@@ -1,3 +1,11 @@
+:root {
+    --dark-blue: #385d7a;
+    --background-grey: rgba(245, 245, 245, 0.817);
+    --shadow-light: rgba(50, 50, 93, 0.25);
+    --shadow-dark: rgba(0, 0, 0, 0.3)
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -31,7 +39,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: var(--shadow-dark);
 }
 
 .icon {
@@ -47,6 +55,16 @@ h1 {
     bottom: 3%
 }
 
+.credits a{
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.credits a:hover{
+    color: var(--dark-blue);
+}
+
 /* Right part */
 
 .right {
@@ -59,7 +77,7 @@ h1 {
 .description, 
 .button-container,
 .log-in-text {
-    background-color: rgba(245, 245, 245, 0.817);
+    background-color: var(--background-grey);
     flex-grow: 1;
 }
 
@@ -112,14 +130,14 @@ input {
     box-sizing: border-box;
     border-radius: 4px;
     border-style: hidden;
-    border-bottom: #385d7a solid;
-    background-color: rgba(245, 245, 245, 0.817);
+    border-bottom: var(--dark-blue) solid;
+    background-color: var(--background-grey);
 }
 
 input:focus {
     outline: none;
-    border: #385d7a solid 2px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 27px;
+    border: var(--dark-blue) solid 2px;
+    box-shadow: var(--shadow-light) 0px 3px 27px;
 }
 
 input:invalid {
@@ -138,15 +156,15 @@ input:invalid {
 }
 
 .shadow-container{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: var(--shadow-light) 0px 13px 27px -5px, var(--shadow-dark) 0px 8px 16px -8px;
 }
 
 /* button container */
 button {
-    background-color: #385d7a;
+    background-color: var(--dark-blue);
     border: none;
     border-radius: 8px;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px;
+    box-shadow: var(--shadow-light) 6px 2px 16px 0px;
     color: white;
     display: block;
     font-weight: 700;
@@ -166,7 +184,7 @@ button:hover {
 }
 
 .log-in-text a {
-    color: #385d7a;
+    color: var(--dark-blue);
     text-decoration: none;
     font-weight: 700;
 }
