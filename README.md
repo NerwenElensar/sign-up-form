@@ -13,6 +13,7 @@ This is an exercise to create a sign-up form similar to a provided [design]("htt
 - Styling form controls
 - Pseudo classes and Pseudo elements
 - Using CSS custom properties
+- Absolute and Relative positioning
 
 ### Javascript
 - Using JS for form validation in this case making sure the password and confirm password field is matching
