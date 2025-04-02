@@ -1,10 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Sign-up Form</title>
-  </head>
-  <body></body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Sign-up Form</title>
+	</head>
+	<body>
+		<section class="left">
+			<div class="overlay">
+				<img src="" alt="" />
+				<h1></h1>
+			</div>
+			<p>
+				Photo by
+				<a
+					href="https://unsplash.com/de/@monaeendra?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+				>
+					Mona Eendra
+				</a>
+			</p>
+		</section>
+		<section class="right">
+			<div class="description">
+				<p>
+					This is not a real online service! You know you need something like this in your life
+					to help you realize your deepest dreams. Sign up
+					<em>now</em>
+					to get started.
+				</p>
+				<p>
+					You
+					<em>know</em>
+					you want to.
+				</p>
+			</div>
+			<div class="form-wrapper">
+				<p>Let's do this!</p>
+				<form id="accountForm" action="post">
+					<p>
+						<label for="first_name">First Name</label>
+						<input type="text" name="first_name" id="first_name" />
+					</p>
+					<p>
+						<label for="lastName">Last Name</label>
+						<input type="text" name="last_name" id="lastName" />
+					</p>
+					<p>
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" />
+					</p>
+					<p>
+						<label for="phone">Phone Number</label>
+						<input type="text" name="phone" id="phone" />
+					</p>
+					<p>
+						<label for="pw">Password</label>
+						<input type="text" name="pw" id="pw" />
+					</p>
+					<p>
+						<label for="pwConf">Confirm Password</label>
+						<input type="text" name="pw" id="pwConf" />
+					</p>
+				</form>
+        <button form="accountForm" submit">Create Account</button>
+        <p>Already have an account? <a href="http://">Log in</a></p>
+			</div>
+		</section>
+	</body>
 </html>
