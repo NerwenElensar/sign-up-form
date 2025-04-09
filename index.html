@@ -37,7 +37,7 @@
 			</div>
 			<div class="form-wrapper">
 				<p>Let's do this!</p>
-				<form id="accountForm" action="post">
+				<form id="accountForm">
 					<p>
 						<label for="first_name">First Name</label>
 						<input type="text" name="first_name" id="first_name" />
@@ -52,15 +52,15 @@
 					</p>
 					<p>
 						<label for="phone">Phone Number</label>
-						<input type="text" name="phone" id="phone" />
+						<input type="number" name="phone" id="phone" />
 					</p>
 					<p>
 						<label for="pw">Password</label>
-						<input type="text" name="pw" id="pw" />
+						<input type="password" name="pw" id="pw" minlength="8"/>
 					</p>
 					<p>
 						<label for="pwConf">Confirm Password</label>
-						<input type="text" name="pw" id="pwConf" />
+						<input type="password" name="pw" id="pwConf" minlength="8"/>
 					</p>
 				</form>
       </div>
